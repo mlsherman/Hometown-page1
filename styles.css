@@ -1,0 +1,72 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0; 
+}
+
+#hero {
+    min-height: 100vh; 
+    background-image: url("images/capital.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center; 
+    padding: 10px; 
+}
+
+#hero h1 {
+    background: rgba(39, 204, 250, 0.7);
+    color: whitesmoke;
+    max-width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 10px;
+    border-radius: 10px; 
+}
+
+#hero h2 {
+    background: rgba(39, 204, 250, 0.7);
+    color: whitesmoke;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 10px;
+    border-radius: 10px; 
+}
+
+#act  { 
+    padding: 10px;
+    min-height: 10vh; 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row; 
+    align-items: flex-end; 
+    background: rgba(39, 180, 299, 0.8); 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px; 
+    margin: 20px 20px 20px 20px;
+}
+
+#guide {
+    margin: 50px 60px 100px;
+    border: 4px silver solid;
+    border-radius: 5px; 
+    background: rgba(58, 152, 242, 0.8);
+    text-align: center;
+    color: rgba(200, 213, 225);
+    font-weight: bold; 
+}
